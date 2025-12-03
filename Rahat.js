@@ -103,13 +103,13 @@ global.getText = function (...args) {
     }
     return text;
 }
-console.log(global.getText('rxabdullah', 'foundPathAppstate'))
+console.log(global.getText('🔰Rahat🔰', 'foundPathAppstate'))
 try {
     var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "appstate.json"));
     var appState = require(appStateFile);
-    logger.loader(global.getText("rxabdullah", "foundPathAppstate"))
+    logger.loader(global.getText("🔰Rahat🔰", "foundPathAppstate"))
 }
-catch { return logger.loader(global.getText("rxabdullah", "notFoundPathAppstate"), "error") }
+catch { return logger.loader(global.getText("🔰Rahat🔰", "notFoundPathAppstate"), "error") }
 
 ////////////////////////////////////////////////////////////
 //========= Login account and start Listen Event =========//
@@ -233,9 +233,9 @@ loginApiData.setOptions(global.config.FCAOption)
                                 else global.configModule[module.config.name][envConfig] = module.config.envConfig[envConfig] || '';
                                 if (typeof global.config[module.config.name][envConfig] == 'undefined') global.config[module.config.name][envConfig] = module.config.envConfig[envConfig] || '';
                             }
-                            logger.loader(global.getText('rxabdullah', 'loadedConfig', module.config.name));
+                            logger.loader(global.getText('🔰Rahat🔰', 'loadedConfig', module.config.name));
                         } catch (error) {
-                            throw new Error(global.getText('rxabdullah', 'loadedConfig', module.config.name, JSON.stringify(error)));
+                            throw new Error(global.getText('🔰Rahat🔰', 'loadedConfig', module.config.name, JSON.stringify(error)));
                         }
                         if (module.onLoad) {
                             try {
@@ -299,9 +299,9 @@ loginApiData.setOptions(global.config.FCAOption)
                                 else global.configModule[event.config.name][_0x5beea0] = event.config.envConfig[_0x5beea0] || '';
                                 if (typeof global.config[event.config.name][_0x5beea0] == 'undefined') global.config[event.config.name][_0x5beea0] = event.config.envConfig[_0x5beea0] || '';
                             }
-                            logger.loader(global.getText('rxabdullah', 'loadedConfig', event.config.name));
+                            logger.loader(global.getText('🔰Rahat🔰', 'loadedConfig', event.config.name));
                         } catch (error) {
-                            throw new Error(global.getText('rxabdullah', 'loadedConfig', event.config.name, JSON.stringify(error)));
+                            throw new Error(global.getText('🔰Rahat🔰', 'loadedConfig', event.config.name, JSON.stringify(error)));
                         }
                         if (event.onLoad) try {
                             const eventData = {};
@@ -311,9 +311,9 @@ loginApiData.setOptions(global.config.FCAOption)
                             throw new Error(global.getText('rxabdullah', 'cantOnload', event.config.name, JSON.stringify(error)), 'error');
                         }
                         global.client.events.set(event.config.name, event);
-                        logger.loader(global.getText('rxabdullah', 'successLoadModule', event.config.name));
+                        logger.loader(global.getText('🔰Rahat🔰', 'successLoadModule', event.config.name));
                     } catch (error) {
-                        logger.loader(global.getText('rxabdullah', 'failLoadModule', event.config.name, error), 'error');
+                        logger.loader(global.getText('🔰Rahat🔰', 'failLoadModule', event.config.name, error), 'error');
                     }
                 }
             }()
