@@ -340,7 +340,7 @@ loginApiData.setOptions(global.config.FCAOption)
         };
         if (!global.checkBan) logger(global.getText('rxabdullah', 'warningSourceCode'), '[ GLOBAL BAN ]');
         global.client.api = loginApiData
-        logger(`RX`, '[ ABDULLAH (MARIA) ]');
+        logger(`⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡\n⚡     🔰 𝙍𝘼𝙃𝘼𝙏_𝙄𝙎𝙇𝘼𝙈 🔰         ⚡\n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡`, '⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡\n⚡     🔰 𝙍𝘼𝙃𝘼𝙏_𝙄𝙎𝙇𝘼𝙈 🔰         ⚡\n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡');
         logger('Hey, thank you for using this Bot', '[ RX (ABDULLAH) ]');
         logger("Fixed by rX", '[ MARIA (RANI) ]');
       
