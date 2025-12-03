@@ -2,13 +2,13 @@
   "name": "RX CHAT BOT",
   "version": "10.1.1",
   "description": "made by rX Abdullah",
-  "main": "Abdullah.js",
+  "main": "Rahat.js",
   "engines": {
       "node": "20.x",
       "npm": "10.0.0"
   },
   "scripts": {
-      "start": "node Rxabdullah.js",
+      "start": "node Xrahat.js",
       "login": "node login",
       "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
   },
