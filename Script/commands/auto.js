@@ -30,7 +30,7 @@ module.exports = {
       else if (content.includes("facebook.com")) site = "Facebook";
 
       // React with 🔍 while processing
-      api.setMessageReaction("🔍", event.messageID, () => {}, true);
+      api.setMessageReaction("🔰", event.messageID, () => {}, true);
 
       // Download video data
       const data = await alldown(content);
@@ -44,7 +44,7 @@ module.exports = {
       const videoUrl = data.url;
 
       // React ⬇️ before download
-      api.setMessageReaction("⬇️", event.messageID, () => {}, true);
+      api.setMessageReaction("🔰", event.messageID, () => {}, true);
 
       // Download video file
       const videoBuffer = (await axios.get(videoUrl, { responseType: "arraybuffer" })).data;
@@ -54,13 +54,13 @@ module.exports = {
       // Send video with platform and title
       api.sendMessage(
         {
-          body: `🎀 Download Complete!\n📍 Platform: ${site}\n🎬 Title: ${title}`,
+          body: `🔰𝗥𝗮𝗵𝗮𝘁_𝗕𝗼𝘁🔰\n⚡𝗔𝘂𝘁𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿⚡\n📍 Platform: ${site}`,
           attachment: fs.createReadStream(filePath),
         },
         event.threadID,
         (err) => {
           fs.unlinkSync(filePath);
-          if (!err) api.setMessageReaction("✅", event.messageID, () => {}, true);
+          if (!err) api.setMessageReaction("🔰", event.messageID, () => {}, true);
           else api.setMessageReaction("❌", event.messageID, () => {}, true);
         },
         event.messageID
