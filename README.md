@@ -102,6 +102,14 @@ This project is licensed under the GNU General Public License v3.0 or later - se
 > ⚠️ This is a modified version. See License section below for usage rights.
 
 ---
+### 💬 Thanks for visiting!
+
+Made by ***Rahat Islam***
+👇*original fork*👇
+```bash
+https://github.com/rxabdullah007/MIRAI-MESSENGER-BOT-BY-RX.git
+```
+
 
 
 
