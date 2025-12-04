@@ -17,7 +17,7 @@ const CACHE_DIR = path.join(__dirname, "cache"); // cache folder same dir
 if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
 
 module.exports.config = {
-  name: "tenor",
+  name: "gif",
   version: "1.2.0",
   hasPermssion: 0,
   credits: "rX Abdullah + ChatGPT",
