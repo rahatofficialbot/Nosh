@@ -107,3 +107,4 @@ Made by ***Rahat Islam***
 ```bash
 https://github.com/Boss-Rahat/Xrahat_Mirai-BOtt.git
 ```
+[![Main Fork](https://img.shields.io/badge/Main%20Fork-Visit-blue?style=for-the-badge&logo=github)](https://github.com/Boss-Rahat/Xrahat_Mirai-BOtt.git)
