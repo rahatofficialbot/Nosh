@@ -104,7 +104,8 @@ This project is licensed under the GNU General Public License v3.0 or later - se
 
 Made by ***Rahat Islam***
 ### 👇*original fork*👇
+[![Main Fork Button](https://imgur.com/a/CkEkghF)](https://github.com/Boss-Rahat/Xrahat_Mirai-BOtt.git)
+
 ```bash
 https://github.com/Boss-Rahat/Xrahat_Mirai-BOtt.git
 ```
-[![Main Fork Button](https://imgur.com/a/CkEkghF)](https://github.com/Boss-Rahat/Xrahat_Mirai-BOtt.git)
