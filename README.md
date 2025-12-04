@@ -56,7 +56,7 @@ ___
 ### 1. Repository Clone Karein
 
 ```bash
-https://github.com/rxabdullah007/MIRAI-MESSENGER-BOT-BY-RX.git
+https://github.com/Boss-Rahat/Xrahat_Mirai-BOtt.git
 ```
 
 ### 2. Dependencies Installed
@@ -105,5 +105,5 @@ This project is licensed under the GNU General Public License v3.0 or later - se
 Made by ***Rahat Islam***
 ### 👇*original fork*👇
 ```bash
-https://github.com/rxabdullah007/MIRAI-MESSENGER-BOT-BY-RX.git
+https://github.com/Boss-Rahat/Xrahat_Mirai-BOtt.git
 ```
